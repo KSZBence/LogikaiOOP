@@ -1,2 +1,2 @@
 # LogikaiOOP
-## Kun-Székly Bence, Szendefi Krisztofer
+## Kun-Székely Bence, Szendefi Krisztofer
