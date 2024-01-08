@@ -4,12 +4,14 @@
  */
 package logikaioop;
 
+import java.util.Scanner;
+
 /**
  *
  * @author szendefi.k.daniel
  */
 public class LogikaiOOP {
-
+    public static Scanner sc = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
@@ -19,6 +21,8 @@ public class LogikaiOOP {
         System.out.println("Az 2. állítás!");
         System.out.println("Az 3. állítás!");
         System.out.println("Melyik:");
+        int melyik = sc.nextInt();
+        System.out.println("");
         System.out.println("A válasz jó | rossz");
         
     }
