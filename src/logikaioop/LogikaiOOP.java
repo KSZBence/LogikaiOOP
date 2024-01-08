@@ -14,13 +14,18 @@ public class LogikaiOOP {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        Allitas a1 = new Allitas(1);
+        Allitas a2 = new Allitas(2);
+        Allitas a3 = new Allitas(3);
+        
         System.out.println("Leírás");
-        System.out.println("Az 1. állítás!");
-        System.out.println("Az 2. állítás!");
-        System.out.println("Az 3. állítás!");
+        System.out.println(a1.toString());
+        System.out.println(a2.toString());
+        System.out.println(a3.toString());
         System.out.println("Melyik:");
         System.out.println("A válasz jó | rossz");
-        
+
     }
-    
+
 }
