@@ -6,7 +6,7 @@ package logikaioop;
 
 /**
  *
-<<<<<<< HEAD
+
  * @author kunszekely.bence
  */
 
