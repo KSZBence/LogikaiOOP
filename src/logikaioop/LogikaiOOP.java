@@ -4,25 +4,14 @@
  */
 package logikaioop;
 
-import java.util.Scanner;
-
-/**
- *
- * @author szendefi.k.daniel
- */
 public class LogikaiOOP {
-    public static Scanner sc = new Scanner(System.in);
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        
-        System.out.println("Melyik:");
-        int melyik = sc.nextInt();
-        System.out.println("");
-        System.out.println("A válasz jó | rossz");
 
+    public static void main(String[] args) {
+        new LogikaiOOP().run();
+    }
+
+    public void run() {
+        Leiras leiras = new Leiras();
     }
 
 }
