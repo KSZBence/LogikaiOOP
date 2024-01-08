@@ -4,28 +4,31 @@
  */
 package logikaioop;
 
+import java.util.Scanner;
+
 /**
  *
  * @author szendefi.k.daniel
  */
 public class LogikaiOOP {
-
+    public static Scanner sc = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
         System.out.println("Leírás");
-        Allitas a1 = new Allitas(1);
+        Lada a1 = new Lada(1);
         System.out.println(a1.toString());
-        Allitas a2 = new Allitas(2);
+        Lada a2 = new Lada(2);
         System.out.println(a2.toString());
-        Allitas a3 = new Allitas(3);
+        Lada a3 = new Lada(3);
         System.out.println(a3.toString());
         
         System.out.println("Melyik:");
+        int melyik = sc.nextInt();
+        System.out.println("");
         System.out.println("A válasz jó | rossz");
-        
+
     }
-    
+
 }

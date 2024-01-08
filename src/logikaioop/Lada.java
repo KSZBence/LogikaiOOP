@@ -6,17 +6,22 @@ package logikaioop;
 
 /**
  *
+<<<<<<< HEAD
  * @author kunszekely.bence
  */
+
+
+
 public class Lada {
-    private String allitas;
-    private String anyag;
+
+    private String allitas, anyag;
     private boolean kincs;
 
     public Lada(String allitas, String anyag, boolean kincs) {
-        setAllitas(allitas);
-        setAnyag(anyag);
-        setKincs(kincs);
+        this.allitas = allitas;
+        this.anyag = anyag;
+        this.kincs = kincs;
+
     }
 
     public String getAllitas() {
@@ -47,6 +52,4 @@ public class Lada {
     public String toString() {
         return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
     }
-    
-    
 }
