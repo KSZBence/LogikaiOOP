@@ -16,15 +16,21 @@ public class LogikaiOOP {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        
         System.out.println("Leírás");
-        System.out.println("Az 1. állítás!");
-        System.out.println("Az 2. állítás!");
-        System.out.println("Az 3. állítás!");
+        Lada a1 = new Lada(1);
+        System.out.println(a1.toString());
+        Lada a2 = new Lada(2);
+        System.out.println(a2.toString());
+        Lada a3 = new Lada(3);
+        System.out.println(a3.toString());
+        
         System.out.println("Melyik:");
         int melyik = sc.nextInt();
         System.out.println("");
         System.out.println("A válasz jó | rossz");
-        
+
     }
-    
+
 }
