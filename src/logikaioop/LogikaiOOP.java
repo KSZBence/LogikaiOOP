@@ -15,14 +15,15 @@ public class LogikaiOOP {
      */
     public static void main(String[] args) {
 
-        Allitas a1 = new Allitas(1);
-        Allitas a2 = new Allitas(2);
-        Allitas a3 = new Allitas(3);
         
         System.out.println("Leírás");
+        Allitas a1 = new Allitas(1);
         System.out.println(a1.toString());
+        Allitas a2 = new Allitas(2);
         System.out.println(a2.toString());
+        Allitas a3 = new Allitas(3);
         System.out.println(a3.toString());
+        
         System.out.println("Melyik:");
         System.out.println("A válasz jó | rossz");
 

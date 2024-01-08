@@ -8,16 +8,22 @@ package logikaioop;
  *
  * @author szendefi.k.daniel
  */
-public class Allitas {
-    private int szam;
 
-    public Allitas(int szam) {
-        this.szam = szam;
+public class Allitas {
+    public int hanyadik;
+
+    public Allitas(int hanyadik) {
+        this.hanyadik = hanyadik;
+    }
+
+    public int getHanyadik() {
+        return hanyadik;
+
     }
 
     @Override
     public String toString() {
-        return "Az " + szam + ". állítás!";
+        return "Az "+hanyadik+". állítás!";
     }
     
     
