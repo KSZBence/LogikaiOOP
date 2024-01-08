@@ -17,11 +17,11 @@ public class LogikaiOOP {
 
         
         System.out.println("Leírás");
-        Allitas a1 = new Allitas(1);
+        Lada a1 = new Lada(1);
         System.out.println(a1.toString());
-        Allitas a2 = new Allitas(2);
+        Lada a2 = new Lada(2);
         System.out.println(a2.toString());
-        Allitas a3 = new Allitas(3);
+        Lada a3 = new Lada(3);
         System.out.println(a3.toString());
         
         System.out.println("Melyik:");
