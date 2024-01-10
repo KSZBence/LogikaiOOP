@@ -6,8 +6,12 @@ package logikaioop;
 
 /**
  *
- * @author szendefi.k.daniel
+
+ * @author kunszekely.bence
  */
+
+
+
 public class Lada {
 
     private String allitas, anyag;
@@ -17,6 +21,7 @@ public class Lada {
         this.allitas = allitas;
         this.anyag = anyag;
         this.kincs = kincs;
+
     }
 
     public String getAllitas() {
@@ -45,7 +50,6 @@ public class Lada {
 
     @Override
     public String toString() {
-        return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
+        return anyag + " láda: " +allitas;
     }
-
 }
