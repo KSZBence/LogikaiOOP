@@ -26,6 +26,7 @@ public class Leiras {
         
 
         System.out.print("Melyikben van a kincs? ");
+
         int valasztott = sc.nextInt();
         kiir("");
         kiir(eredmenyjelzes(valasztott));
