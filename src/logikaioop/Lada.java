@@ -50,6 +50,6 @@ public class Lada {
 
     @Override
     public String toString() {
-        return allitas;
+        return anyag + " láda: " +allitas;
     }
 }

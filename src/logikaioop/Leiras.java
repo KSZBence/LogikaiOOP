@@ -10,16 +10,16 @@ public class Leiras {
     public static Scanner sc = new Scanner(System.in);
     
     public Leiras() {
-        Lada l1 = new Lada("Az 1. állitas", "anyag", false);
-        Lada l2 = new Lada("Az 2. állitas", "anyag", false);
-        Lada l3 = new Lada("Az 3. állitas", "anyag", true);
+        Lada l1 = new Lada("Én rejtettem el a kincset!", "Arany", false);
+        Lada l2 = new Lada("Nem én rejtettem el a kincset!", "Ezüst", true);
+        Lada l3 = new Lada("Az arany hazudik!", "Bronz", false);
         
-        kiir("Leírás");
+        kiir("Leírás: minden láda 1-1 állítást tartalmaz, csak az egyik igaz.");
         kiir(l1.toString());
         kiir(l2.toString());
         kiir(l3.toString());
         
-        System.out.print("Melyik:");
+        System.out.print("Melyikben van a kincs?");
         int s = sc.nextInt();
         kiir("");
         kiir(new Leiras().eredmenyjelzes(true));
