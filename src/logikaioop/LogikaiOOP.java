@@ -4,6 +4,8 @@
  */
 package logikaioop;
 
+import controller.Leiras;
+
 public class LogikaiOOP {
 
     public static void main(String[] args) {
