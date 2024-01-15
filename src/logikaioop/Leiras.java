@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package logikaioop;
+import model.Lada;
 import java.util.Scanner;
 
 public class Leiras {
@@ -11,7 +12,6 @@ public class Leiras {
     Lada[] ladak = new Lada[3];
     
     public Leiras() {
-
         Lada l1 = new Lada("Én rejtettem el a kincset!", "Arany", false);
         Lada l2 = new Lada("Nem én rejtettem el a kincset!", "Ezüst", true);
         Lada l3 = new Lada("Az arany hazudik!", "Bronz", false);
@@ -31,16 +31,5 @@ public class Leiras {
         kiir("");
         kiir(eredmenyjelzes(valasztott));
     }
-    
-    public void kiir(String szoveg){
-        System.out.println(szoveg);
-    }
-    
-    public String eredmenyjelzes(int valasztott) {
-        if (ladak[valasztott-1].isKincs()) {
-            return "A válasz jó!";
-        } else {
-            return "A válasz rossz!";
-        }
-    }
+
 }
